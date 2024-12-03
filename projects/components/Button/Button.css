@@ -1,0 +1,35 @@
+.Button {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 0 10px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    transition:transform 0.3s ease,background-color 0.1s ease;
+}
+
+.Button:hover{
+    transform: scale(1.05);
+    background-color: royalblue;
+}
+.imgBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.imgBtn{
+    width: 25px;
+}
+.textBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
